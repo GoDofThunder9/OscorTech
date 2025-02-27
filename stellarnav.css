@@ -55,7 +55,7 @@
     content: "";
     height: 1px;
     width: 20%;
-    background: #08d665;
+    background: #2596be;
     left: 0;
     bottom: 0;
     visibility: hidden;
@@ -81,7 +81,7 @@
     z-index   : 9900;
     text-align: left;
     display   : none;
-    background: #2E3D44;
+    background: white;
 }
 
 .stellarnav li li {
@@ -112,20 +112,20 @@
 }
 
 /* light theme */
-.stellarnav.light {
-    background: transparent;
-}
+    .stellarnav.light {
+        background: transparent;
+    }
 
 
 .stellarnav.light.mobile.active > ul, 
 .stellarnav.light.mobile.active  ul > ul {
-    background: #2E3D44;
+    background: white;
 }
 .stellarnav.mobile.active.light ul{
-     background: #2E3D44;
+     background: white;
 }
 .stellarnav.light li a {
-    color: #c8c6c6;
+    color: black;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 14px;
@@ -138,7 +138,7 @@
     background: #222;
 }
 .stellarnav.light.mobile.active li a:hover{
-    color: #08D665;
+    color: #2596be;
 }
 
 /* dark theme */
@@ -755,7 +755,7 @@ body.stellarnav-noscroll-x {
 }
 
 .stellarnav.light li li a:hover{
-    color: #08D665;
+    color: #2596be;
     padding-left: 30px
 }
 /* mega dd */

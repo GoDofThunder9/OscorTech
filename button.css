@@ -8,7 +8,7 @@ a.cbtn {
 }
 
 a.cbtn.cbnt1 {
-    background: #08d665;
+    background: #2596be;
     padding-right: 70px;
     position: relative;
     z-index: 2;
@@ -26,7 +26,7 @@ a.cbtn.cbnt1 i {
     line-height: 30px;
     font-size: 20px;
     background: #fff;
-    color: #08d665;
+    color: #2596be;
     border-radius: 4px;
     margin-top: -15px;
 }
@@ -34,15 +34,15 @@ a.cbtn.cbnt1 i {
 
 
 a.cbtn.cbnt1:hover{
-    border-color: #22cd6f;
+    border-color: #5da3bc;
     background: transparent;
-    color: #22cd6f;
+    color:  #5da3bc;
     transition: all .3s;
 }
 
 
 a.cbtn.pricing-btn {
-    background: #08d665;
+    background: #2596be;
     padding-right: 70px;
     position: relative;
     z-index: 2;
