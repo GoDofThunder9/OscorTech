@@ -49,7 +49,7 @@ FOOTER AREA CSS
 */
 
 .header-banner-area {
-    background: #fff;
+    background: #f1f6f8;
     position  : relative;
     z-index   : 2;
 }
@@ -59,7 +59,7 @@ FOOTER AREA CSS
     top       : 50%;
     right     : 0;
     margin-top: -15px;
-    background: white;
+    background: #f1f6f8;
 }
 
 .header-banner-area .owl-nav > div {
@@ -68,7 +68,7 @@ FOOTER AREA CSS
     text-align : center;
     line-height: 20px;
     display    : inline-block;
-    color      : #fff;
+    color      : #f1f6f8;
     margin     : 0 2px;
 }
 .header-banner-area .owl-nav > div:hover{
@@ -106,7 +106,7 @@ FOOTER AREA CSS
     top: 0;
     width: 100%;
     z-index: 99;
-    background: white;
+    background: #f1f6f8;
     transition: all 1s;
 }
 .banner-comments {
@@ -358,13 +358,15 @@ a.contact-btn:hover{
 
 
 .welcome__wrap1{
-    background:#FFFDF0;
+    background: #f1f6f8;
+    /* background:url("./images/hhome.gif"); */
+    /* background: url("./images/hhome.gif"); */
     background-size: cover;
     background-position: center
 }
 
 .welcome__wrap2{
-    background:#FFFDF0;
+    background: #f1f6f8;
     background-size: cover;
     background-position: center
 }
@@ -399,16 +401,23 @@ a.contact-btn:hover{
 }
 .wlc-author-1 {
     position: absolute;
-    right   : 5%;
-    width   : 40%;
-    bottom  : 0;
-    height  : 90%;
-    z-index : -1;
+    right: 0; /* Push to the right */
+    bottom: 20%;
+    top: 10%;
+    width: 50%; /* Increase width */
+    height: auto; /* Maintain aspect ratio */
+    z-index: -1; /* Ensure it stays above */
+    display: flex;
+    justify-content: flex-start; /* Align image to the right */
 }
 
-.author-1 img {
-    height: 100%;
-    width : auto;
+.wlc-author-1 img {
+    width: 100%; /* Make image responsive */
+    height: 50rem; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure proper scaling */
+    right: 10%;
+    top:0%;
+   
 }
 
 
@@ -490,17 +499,19 @@ h1.wlc-filltext {
 
 .about-img-section {
     padding: 240px 0;
+
 }
 .about-area1{
-    background: url(../images/videobanner.gif);
+    /* background: url(./images/videobanner.gif); */
+    background: #f1f6f8;
     background-position: center;
     background-size: cover;
-    opacity: 0.8;
+    
 
 }
 .about-img-section1{
-    background: url(../images/bg.gif);
-    background-size: cover;
+    background: url(./images/bg.gif);  
+      background-size: cover;
     background-position: center
     
 }
@@ -524,28 +535,28 @@ a.about-video {
     content          : "";
     height           : 100%;
     width            : 130%;
-    background       : url(../img/about/about-bg-shape.png);
+    background       : url(./images/2.jpg);
     z-index          : -1;
     left             : -15%;
     background-repeat: no-repeat;
     top              : 0%;
 }
 .about-area-primery .about-shape:after{
-    background       : url(../img/about/about-bg-shape2.png) no-repeat;
+    background       : #f1f6f8
 }
 .about-shape:before {
     position         : absolute;
     content          : "";
     height           : 300px;
     width            : 300px;
-    background       : url(../img/about/about-shape.svg) no-repeat;
+    background       : #f1f6f8;
     background-repeat: no-repeat;
     bottom           : -20%;
     left             : -15%;
     z-index          : -1;
 }
 .about-area-primery .about-shape:before {
-    background       : url(../img/about/about-shape2.svg) no-repeat;
+    background       : url(./images/3.jpg) no-repeat;
 }
 .video-play-button {
   position: absolute;
@@ -555,8 +566,8 @@ a.about-video {
   transform: translateX(-50%) translateY(-50%);
   box-sizing: content-box;
   display: block;
-  width: 32px;
-  height: 44px;
+  width: 320px;
+  height: 440px;
   /* background: #fa183d; */
   border-radius: 50%;
   padding: 18px 20px 18px 28px;
@@ -705,7 +716,7 @@ a.about-video {
     content: "";
     height: 500px;
     width: 500px;
-    background: url(../img/bg/skill-bg1.svg);
+    background: #f1f6f8;
     bottom: -30%;
     z-index: -1;
     background-position: right;
@@ -2097,4 +2108,8 @@ p.single-soicial-text {
 .owl-carousel .owl-item img{
     display: inline-block;
     width: auto;
+}
+
+.text-white{
+    color: white;
 }

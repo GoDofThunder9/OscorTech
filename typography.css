@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6{
 h1{
     font-size: 90px;
     line-height: 110px;
-    color: #ffffff;
+    color:  black;
     letter-spacing: -4px;
 }
 
@@ -2228,7 +2228,7 @@ input:-webkit-autofill:hover {
     background: #eaf6fa;
 }
 
-.gray-bg {
+. black-bg {
     background: #f5f4f4;
 }
 .color_orange{
@@ -2303,40 +2303,40 @@ input:-webkit-autofill:hover {
 .white-bg{
     background-color: white;
 }
-.light-gray-bg {
+.light- black-bg {
     background-color: #f7f7f7;
 }
 
-.deep-gray-bg {
+.deep- black-bg {
     background-color: #f2f0ff;
 }
 
-.sky-gray-bg {
+.sky- black-bg {
     background: #f7f9fc;
 }
 
-.soft-gray-bg {
+.soft- black-bg {
     background: #f8f8ff;
 }
 
 .dark-bg {
     background: rgba(0, 0, 0, .85);
-    color: #ffffff;
+    color:  black;
 }
 
 .alt-dark-bg {
     background: #0a0c19;
-    color: #ffffff;
+    color:  black;
 }
 
 .deep-dark-bg {
     background: rgba(0, 0, 0, .9);
-    color: #ffffff;
+    color:  black;
 }
 
 .alt-deep-dark-bg {
     background: #050713;
-    color: #ffffff;
+    color:  black;
 }
 
 .sky_color{
@@ -2390,7 +2390,7 @@ input:-webkit-autofill:hover {
 .white h5,
 .white h6,
 .white small {
-    color: #ffffff;
+    color:  black;
 }
 
 
