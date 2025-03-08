@@ -38,7 +38,7 @@
           animateOut:'fadeOut',
           smartplay:1000,
           autoplay:true,
-           navText:["<i class=\'fal fa-arrow-left\'></i>", "<i class=\'fal fa-arrow-right\'></i>"],
+           navText:["<i class=\'fa fa-arrow-left\'></i>", "<i class=\'fa fa-arrow-right\'></i>"],
            responsive:{
               0:{
                   items:1
@@ -62,7 +62,7 @@
           animateOut:'fadeOut',
           smartplay:1000,
           autoplay:true,
-           navText:["<i class=\'fal fa-arrow-left\'></i>", "<i class=\'fal fa-arrow-right\'></i>"],
+           navText:["<i class=\'fa fa-arrow-left\'></i>", "<i class=\'fa fa-arrow-right\'></i>"],
            responsive:{
               0:{
                   items:1
@@ -85,7 +85,7 @@
           animateIn:'fadeInUp',
           autoplay:true,
           items:1,
-          navText:["<i class=\'fal fa-arrow-left\'></i>", "<i class=\'fal fa-arrow-right\'></i>"],
+          navText:["<i class=\'fa fa-arrow-left\'></i>", "<i class=\'fa fa-arrow-right\'></i>"],
   
         });
   
@@ -98,7 +98,7 @@
           animateOut:'fadeInRight',
           autoplay:true,
           items:1,
-          navText:["<i class=\'fal fa-arrow-left\'></i>", "<i class=\'fal fa-arrow-right\'></i>"],
+          navText:["<i class=\'fa fa-arrow-left\'></i>", "<i class=\'fa fa-arrow-right\'></i>"],
   
         });
   
@@ -110,7 +110,7 @@
           autoplay:true,
           margin:30,
           
-          navText:["<i class=\'fal fa-arrow-left\'></i>", "<i class=\'fal fa-arrow-right\'></i>"],
+          navText:["<i class=\'fa fa-arrow-left\'></i>", "<i class=\'fa fa-arrow-right\'></i>"],
           responsive:{
             0:{
               items:1

@@ -3,6 +3,7 @@
 <!--HTML START-->
 
 <head>
+
     <!--HEAD START-->
     <title>OscorTech</title>
     <!--::::: support meta :::::::-->
@@ -12,6 +13,48 @@
         i{
             color:black;
         }
+    .cta-area {
+        background-color: #000;
+        padding: 50px 0;
+        color: #fff;
+    }
+    .cta-heading small {
+        font-size: 16px;
+        color: #f8b400;
+    }
+    .cta-heading h2 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .cta-form form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .cta-form input, .cta-form textarea {
+        width: 100%;
+        padding: 12px;
+        background: #222;
+        border: 1px solid #444;
+        color: #fff;
+        border-radius: 5px;
+    }
+    .cta-form input::placeholder, .cta-form textarea::placeholder {
+        color: #bbb;
+    }
+    .subscribe-btn {
+        background-color: #f8b400;
+        color: #000;
+        padding: 12px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+    .subscribe-btn:hover {
+        background-color: #d69500;
+    }
     </style>
     <!--::::: ALL CSS CALLING :::::::-->
     <link rel="stylesheet" href="./animatemin.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css" integrity="sha512-v8QQ0YQ3H4K6Ic3PJkym91KoeNT5S3PnDKvqnwqFD1oiqIl653crGZplPdU5KKtHjO0QKcQ2aUlQZYjHczkmGw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,6 +67,7 @@
     <link rel="stylesheet" href="./theme.css">
     <link rel="stylesheet" href="./button.css">
     <link rel="stylesheet" href="./inner.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./responsive.css">
 
 </head>
@@ -45,7 +89,7 @@
         <!--::::: HEADER AREA START :::::::-->
         <div class="header-area header-main" id="header">
             <!--scroll to up btn-->
-            <a href="#" class="up-btn"><i class="fal fa-angle-up"></i></a>
+            <a href="#" class="up-btn"><i class="fa fa-angle-up"></i></a>
             <div class="container">
                 <div class="row">
                     <div class="col-6 col-lg-3 align-self-center">
@@ -67,19 +111,7 @@
                         </div>
                     </div>
                     <div class="d-none d-lg-block col-lg-3 align-self-center text-right">
-                        <div class="search-area">
-                            <div class="search-box">
-                                <form action="#">
-                                    <input type="search" placeholder="Search">
-                                </form>
-                                <div class="search-btn">
-                                    <a  href="#"><i class="fa-search"></i></a>
-                                </div>
-                            </div>
-                            <div class="grid-menu" id="grid-side">
-                                <img src="assets/img/icon/hamburger.svg" alt="">
-                            </div>
-                        </div>
+                        <a href="#contact" style="background: #2596be; color: white;"  class="btn">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -91,6 +123,7 @@
         <!--:::::WELCOME ATRA START :::::::-->
         <div class="welcome-area-wrap welcome__wrap1">
         
+            
             <!--::::: WELCOME CAROUSEL START :::::::-->
             <div class="welcome-carousel owl-carousel">
                 <div class="single-welcome-area home_1">
@@ -101,18 +134,20 @@
                                     <h1 class="fadeInDown animated"><span>OscorTech</span> Where Creativity Meets Technology.</h1>
                                     <p class="fadeInDown animated">We specialize in crafting full-fledged, custom websites that empower businesses to thrive in the digital world. </p>
                                    
-                                    <a href="#" class="cbtn cbnt1 fadeInDown animated">Getting Started <i class="fal fa-angle-right"></i></a>
+                                    <a href="#" class="cbtn cbnt1 fadeInDown animated">Getting Started <i class="fa fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+                    <div class="wlc-author-1">
+                        <img src="images/banner.png" alt="">
+                        
+                    </div>
                 </div>
-                <
+                
             </div>
             <!--::::: WELCOME CAROUSEL END:::::::-->
         </div>
-        <!--:::::WELCOME AREA END :::::::-->
 
         <!--:::::ABOUT AREA START :::::::-->
         <div class="about-area about-area1 section-padding" id="about">
@@ -121,7 +156,7 @@
                     <div class="col-lg-5 align-self-center">
                         <div class="about-shape">
                             <div class="about-img-section about-img-section1 text-center">
-                                <a id="play-video" class="video-play-button" href="C:\Users\heman\OneDrive\Desktop\oscor\images\161241 (720p).mp4" data-video-id="C:\Users\heman\OneDrive\Desktop\oscor\images\161241 (720p).mp4"><span></span></a>
+                                <a id="play-video" class="video-play-button" href="C:\Users\heman\OneDrive\Desktop\oscor\images\hhome.gif" data-video-id="C:\Users\heman\OneDrive\Desktop\oscor\images\161241 (720p).mp4"><span></span></a>
                                 <div id="video-overlay" class="video-overlay">
                                   <a class="video-overlay-close"></a>
                                 </div>
@@ -130,10 +165,10 @@
                     </div>
                     <div class="col-lg-6 offset-lg-1 align-self-center">
                         <div class="heading white">
-                            <strong class="filltext">About us</strong>
+                        
                             <h2>Your Digital Growth, Our <span>Expertise</span></h2>
                             <p>Founded with a vision to bridge the gap between businesses and technology, we are a team of passionate developers, designers, and strategists committed to delivering exceptional web solutions.</p>
-                        <a href="#" class="cbtn cbnt1 fadeInDown animated"> COMPANY CV <i class="fal fa-angle-right"></i></a>
+                        <a href="#" class="cbtn cbnt1 fadeInDown animated"> COMPANY CV <i class="fa fa-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -146,10 +181,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 align-self-center">
-                        <div class="heading white">
-                            <strong class="filltext">my carrer</strong>
+                        <div class="heading white" >
                             <small>COMPANY EXPERIENCE</small>
-                            <h2>Experience and <span>skill</span></h2>
+                            <h2 class="text-white">Experience and <span>skill</span></h2>
                         </div>
                     </div>
                     <div class="col-lg-6 align-self-center">
@@ -161,30 +195,32 @@
                 <div class="row">
                     <div class="col-sm-6 col-lg-3">
                         <div class="skill-box">
-                            <small>2011 - 2014  (Ecommerce Website)</small>
-                            <h5>Google Corporation.</h5>
-                            <p>All you need to do your best work together in one package works seamlessly computer</p>
+                            <small>2022 - 2023  (MERN)</small>
+                            <h5>Freelance / Various Clients</h5>
+                            <p>
+                                Building scalable web applications using MongoDB, Express.js, React, and Node.js. Developing full-stack solutions with optimized performance and seamless user experiences.</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3">
                         <div class="skill-box">
-                            <small>2011 - 2014 (Ui designer)</small>
-                            <h5>Apple Product Co.</h5>
-                            <p>All you need to do your best work together in one package works seamlessly computer</p>
+                            <small>2022 - 2023 (Ui designer)</small>
+                            <h5>UI/UX Designer</h5>
+                            <p>Creative Designs Agency
+                                Designing intuitive and user-friendly interfaces. Conducting user research and prototyping interactive experiences with Figma and Adobe XD</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3">
                         <div class="skill-box">
-                            <small>2011 - 2014 (Ui designer)</small>
-                            <h5>lead designer musicsoft</h5>
-                            <p>All you need to do your best work together in one package works seamlessly computer</p>
+                            <small>2021  (DevOps Enginee)</small>
+                            <h5>Cloud Solutions Inc</h5>
+                            <p>Implementing CI/CD pipelines, automating deployments, and managing cloud infrastructure. Utilizing tools like Docker, Kubernetes, Jenkins, and AWS for seamless operations.  </p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3">
                         <div class="skill-box">
-                            <small>2011 - 2014 (Ui designer)</small>
-                            <h5>lBruno Mars As.</h5>
-                            <p>All you need to do your best work together in one package works seamlessly computer</p>
+                            <small>2020 (Content Creator)</small>
+                            <h5>Tech Insights Hub</h5>
+                            <p>Writing in-depth articles and creating video content about emerging technologies, web development, and software engineering trends.</p>
                         </div>
                     </div>
                 </div>
@@ -230,9 +266,8 @@
                 <div class="row">
                     <div class="col-lg-6 align-self-center">
                         <div class="heading white">
-                            <strong class="filltext">our services</strong>
                             <small>WHAT WE DO</small>
-                            <h2>Services and<span> Solutions</span></h2>
+                            <h2 class="text-white">Services and<span> Solutions</span></h2>
                         </div>
                     </div>
                     <div class="col-lg-6 align-self-center">
@@ -311,9 +346,8 @@
                 <div class="row">
                     <div class="col-lg-5 align-self-center">
                         <div class="heading white">
-                            <strong class="filltext">our projects</strong>
                             <small>OUR CLIENTS</small>
-                            <h2>lastet working <span>projects</span></h2>
+                            <h2 class="text-white">lastet working <span>projects</span></h2>
                         </div>
                     </div>
                     <div class="col-lg-5 align-self-center">
@@ -326,37 +360,27 @@
                 <div class="row">
                     <ul id="da-thumbs" class="da-thumbs portfolio-carousel owl-carousel">
                         <li>
-                            <a href="portfolio.html">
-                                <img src="C:\Users\heman\OneDrive\Desktop\oscor\images\4.jpg" alt="">
+                            <a href="">
+                                <img src="./images/famesphere.png" alt="">
                                 <div><span>Client - Nishreyas Private Limited</span></div>
                             </a>
                         </li>
                         <li>
-                            <a href="portfolio.html">
-                                <img src="C:\Users\heman\OneDrive\Desktop\oscor\images\3.jpg" alt="">
-                                <div><span>Clients-Artworks</span></div>
+                            <a href="https://drive.google.com/file/d/1EKBxZvy6wCwrtMlMK_wpPLTEyxbqeuTf/view?usp=drive_link">
+                                <img src="./images/financecastle.png" alt="">
+                                <div><span>Client - Stock-O-Learn</span></div>
                             </a>
                         </li>
                         <li>
-                            <a href="portfolio.html">
-                                <img src="C:\Users\heman\OneDrive\Desktop\oscor\images\2.jpg" alt="">
-                                <div><span>Client-AadityaGroups</span></div>
+                            <a href="https://aaditgroups.com/">
+                                <img src="./images/aaditgroups.png" alt="">
+                                <div><span>Client-AadityaGroups Private Limited</span></div>
                             </a>
                         </li>
                         <li>
-                            <a href="portfolio.html">
-                                <img src="C:\Users\heman\OneDrive\Desktop\oscor\images\5.jpg" alt="">
-                                <div>
-                                    <span>Client - Rasu private limited</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="portfolio.html">
-                                <img src="C:\Users\heman\OneDrive\Desktop\oscor\images\6.jpg" alt="">
-                                <div>
-                                    <span>Client - R3A3 private limited </span>
-                                </div>
+                            <a href="https://gupshap-chat-app.vercel.app/">
+                                <img src="./images/gupshupupdate.jpeg" alt="">
+                                <div><span>Client-Famesphere private limited</span></div>
                             </a>
                         </li>
                     </ul>
@@ -371,9 +395,8 @@
                 <div class="row">
                     <div class="col-lg-5 align-self-center">
                         <div class="heading white">
-                            <strong class="filltext">Testimonials</strong>
                             <small>Testimonials</small>
-                            <h2>Happy Clients TO <span>says</span></h2>
+                            <h2 class="text-white">Happy Clients TO <span>says</span></h2>
                         </div>
                     </div>
                     <div class="col-lg-5 align-self-center">
@@ -393,7 +416,7 @@
                                 <div class="testimonial-text animated fadeInDown">
                                     <img src="C:\Users\heman\OneDrive\Desktop\oscor\images\3.jpg" alt="">
                                     <h4>The solutions provided by OscorTech were tailored perfectly to our needs. It’s been a seamless and rewarding experience</h4>
-                                    <p>Ashutosh Shukla, NYC, USA</p>
+                                    <p>Utkarsh Gupta, Famesphere</p>
                                 </div>
                             </div>
                             <div class="testimonial">
@@ -403,7 +426,7 @@
                                 <div class="testimonial-text">
                                     <img src="C:\Users\heman\OneDrive\Desktop\oscor\images\4.jpg" alt="">
                                     <h4>Great company </h4>
-                                    <p>Jack Metiyo Shina, NYC, USA</p>
+                                    <p>Vishwa Dharun, AaditGroups</p>
                                 </div>
                             </div>
                             <div class="testimonial">
@@ -413,7 +436,7 @@
                                 <div class="testimonial-text">
                                     <img src="assets/img/icon/quote.png" alt="">
                                     <h4>We’re thrilled with the outcome! OscorTech delivered on every promise and more. Truly a five-star experience.</h4>
-                                    <p>Jack Metiyo Shina, NYC, USA</p>
+                                    <p>Renga, AaditGroups</p>
                                 </div>
                             </div>
                         </div>
@@ -431,7 +454,7 @@
                         <div class="heading white">
                             <strong class="filltext">payment</strong>
                             <small>SPECIFICATIONS</small>
-                            <h2>All OUR PAYMENT <span>options</span></h2>
+                            <h2 class="text-white">All OUR PAYMENT <span>options</span></h2>
                         </div>
                     </div>
                      <div class="col-lg-6 align-self-center">
@@ -453,11 +476,11 @@
                             </div>
                             <div class="separator"></div>
                              <div class="service-text">
-                                <h3>$100</h3>
+                                <h3></h3>
                                 <h5>Based on requirements</h5>
                             </div>
 
-                            <a href="#" class="cbtn pricing-btn">read more <i class="fal fa-angle-right"></i></a>
+                            <a href="#" class="cbtn pricing-btn">read more <i class="fa fa-angle-right"></i></a>
                             <div class="circles-wrap">
                                 <div class="circles">
                                     <span class="circle circle-1"></span>
@@ -480,10 +503,10 @@
                             </div>
                             <div class="separator"></div>
                              <div class="service-text">
-                                <h3>$200</h3>
+                                <h3></h3>
                                 <h5>Based on specifications</h5>
                             </div>
-                            <a href="#" class="cbtn pricing-btn">read more <i class="fal fa-angle-right"></i></a>
+                            <a href="#" class="cbtn pricing-btn">read more <i class="fa fa-angle-right"></i></a>
                             <div class="circles-wrap">
                                 <div class="circles">
                                     <span class="circle circle-1"></span>
@@ -505,11 +528,10 @@
                             </div>
                             <div class="separator"></div>
                              <div class="service-text">
-                                <h3>Let’s charge</h3>
-                                <h5>Per month</h5>
+                                <h5>Based on specifications</h5>
                             </div>
                             
-                            <a href="#" class="cbtn pricing-btn">read more <i class="fal fa-angle-right"></i></a>
+                            <a href="#" class="cbtn pricing-btn">read more <i class="fa fa-angle-right"></i></a>
                             <div class="circles-wrap">
                                 <div class="circles">
                                     <span class="circle circle-1"></span>
@@ -527,27 +549,32 @@
 
         
 
-        <!--:::::CALL TO ACTION AREA START :::::::-->
-        <div class="cta-area cta-area1 padding-top" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 m-auto text-center">
-                     <div class="heading cta-heading white">
-                        <small>Newsletter</small>
-                        <div class="space-20"></div>
-                        <h2>Stay up to date, subscribe to the free <span>newsletter !</span></h2>
-                    </div>
-                    <div class="space-40"></div>
-                    <div class="cta-form">
-                        <form action="#">
-                            <input type="email" placeholder="Enter Your Email..">
-                            <a href="#" class="subscribe-btn">subscribe <i class="fal fa-comments-alt"></i></a>
-                        </form>
-                    </div>
-                    </div>
+   <!--:::::CALL TO ACTION AREA START :::::::-->
+   <div class="cta-area cta-area1 padding-top" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 m-auto text-center">
+                <div class="heading cta-heading white">
+                    <small>Newsletter</small>
+                    <div class="space-20"></div>
+                    <h2 class="text-white">Let's connect. Fill out the form and reach out to us.<span> Join Us!</span></h2>
+                </div>
+                <div class="space-40"></div>
+                <div class="cta-form">
+                    <form id="contact-form"> <!-- Removed action & added id -->
+                        <input type="text" name="name" placeholder="Enter Your Name.." required>
+                        <input type="email" name="email" placeholder="Enter Your Email.." required>
+                        <input type="tel" name="phone" placeholder="Enter Your Phone Number.." required>
+                        <textarea name="description" placeholder="Enter Your Description.." required></textarea>
+                        <button type="submit" class="subscribe-btn">Submit <i class="fa fa-angle-right"></i></button>
+                    </form>
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+
         <!--:::::CALL TO ACTION AREA END :::::::-->
 
         <!--:::::FOOTER AREA START :::::::-->
@@ -557,34 +584,19 @@
             <div class="container">
                 <div class="row">
                     <div class="logos owl-carousel">
-                        <div class="single-logo-table">
+                        <div class="single-logo-table1">
                             <div class="single-logo-table-cell">
-                               <img src="assets/img/logo/1.svg" alt="">
+                               <img src="./images/logo.png" alt="">
                             </div>
                         </div>
-                        <div class="single-logo-table">
+                        <div class="single-logo-table1">
                             <div class="single-logo-table-cell">
-                                <img src="assets/img/logo/01.png" alt="">
+                                <img src="./images/image.png" alt="">
                             </div>
                         </div>
-                        <div class="single-logo-table">
+                        <div class="single-logo-table1">
                             <div class="single-logo-table-cell">
-                                <img src="assets/img/logo/02.png" alt="">
-                            </div>
-                        </div>
-                        <div class="single-logo-table">
-                            <div class="single-logo-table-cell">
-                                <img src="assets/img/logo/03.png" alt="">
-                            </div>
-                        </div>
-                        <div class="single-logo-table">
-                            <div class="single-logo-table-cell">
-                                <img src="assets/img/logo/04.png" alt="">
-                            </div>
-                        </div>
-                        <div class="single-logo-table">
-                            <div class="single-logo-table-cell">
-                                <img src="assets/img/logo/02.png" alt="">
+                                <img src="" alt="">
                             </div>
                         </div>
                     </div>
@@ -607,7 +619,7 @@
                         </div>
                         <div class="space-40"></div>
                         <div class="copyright">
-                            <p>Copyright © 2019 by <span> QuomodoTheme </span> all right reserved</p>
+                            <p>Copyright © 2019 by <span></span> all right reserved</p>
                         </div>
                     </div>
                 </div>
@@ -620,6 +632,8 @@
 
     <!--:::::jquery 3.2.1 js :::::::-->
     <script src="./jquerymin.js"></script>
+    <script src="./email.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script src="./bootstrapmin.js"></script>
     <script src="./jquerynavmin.js"></script>
     <script src="./jquerywaypoints.js"></script>
